@@ -14,3 +14,13 @@ print("Jumlah:", jumlah)
 
 print("\n=== TOTAL BELANJA ===")
 print("Total belanja:", total)
+
+print("\n=== PEMBAYARAN ===")
+
+bayar = int(input("Uang pembayaran: "))
+
+kembalian = bayar - total
+
+print("Total belanja:", total)
+print("Uang pembayaran:", bayar)
+print("Kembalian:", kembalian)
